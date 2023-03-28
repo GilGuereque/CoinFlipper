@@ -1,3 +1,4 @@
+// Import the Express framework and create an instance of the app
 const express = require('express');
 const app = express();
 
