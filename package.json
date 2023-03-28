@@ -4,7 +4,8 @@
   "description": "Coin flipping app on the server side",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/GilGuereque/CoinFlipper/issues"
   },
-  "homepage": "https://github.com/GilGuereque/CoinFlipper#readme"
+  "homepage": "https://github.com/GilGuereque/CoinFlipper#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
 }
